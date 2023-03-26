@@ -7,7 +7,6 @@ import static org.junit.Assert.*;
 public class CreditCardTest {
 
     CreditCard creditCard;
-
     @Before
     public void setUp() {
         creditCard = new CreditCard("4779-5518-4645-9207", "Pakito ypongo", "01/25", 123, 1000);
